@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6D3F5823BDC31F00B9FBCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D3F5723BDC31F00B9FBCC /* AppDelegate.m */; };
+		3C6D3F5B23BDC31F00B9FBCC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D3F5A23BDC31F00B9FBCC /* SceneDelegate.m */; };
+		3C6D3F5E23BDC31F00B9FBCC /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D3F5D23BDC31F00B9FBCC /* ViewController.mm */; };
+		3C6D3F6123BDC31F00B9FBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D3F5F23BDC31F00B9FBCC /* Main.storyboard */; };
+		3C6D3F6323BDC32200B9FBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D3F6223BDC32200B9FBCC /* Assets.xcassets */; };
+		3C6D3F6623BDC32200B9FBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6D3F6423BDC32200B9FBCC /* LaunchScreen.storyboard */; };
+		3C6D3F6923BDC32200B9FBCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D3F6823BDC32200B9FBCC /* main.m */; };
+		3C6D3F7923BDC36300B9FBCC /* DKCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D3F7123BDC36300B9FBCC /* DKCamera.m */; };
+		3C6D3F7A23BDC36300B9FBCC /* UIImage+DKSampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D3F7223BDC36300B9FBCC /* UIImage+DKSampleBuffer.m */; };
+		3C6D3F7B23BDC36300B9FBCC /* DKCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D3F7323BDC36300B9FBCC /* DKCameraView.m */; };
+		3C6D3F7C23BDC36300B9FBCC /* DKImageConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D3F7723BDC36300B9FBCC /* DKImageConverter.mm */; };
+		3C6D3F7F23BDC3DA00B9FBCC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6D3F7E23BDC3DA00B9FBCC /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C6D3F5323BDC31F00B9FBCC /* DKCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6D3F5623BDC31F00B9FBCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C6D3F5723BDC31F00B9FBCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C6D3F5923BDC31F00B9FBCC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3C6D3F5A23BDC31F00B9FBCC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3C6D3F5C23BDC31F00B9FBCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C6D3F5D23BDC31F00B9FBCC /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		3C6D3F6023BDC31F00B9FBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C6D3F6223BDC32200B9FBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C6D3F6523BDC32200B9FBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C6D3F6723BDC32200B9FBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6D3F6823BDC32200B9FBCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C6D3F7023BDC36300B9FBCC /* DKCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCameraView.h; sourceTree = "<group>"; };
+		3C6D3F7123BDC36300B9FBCC /* DKCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCamera.m; sourceTree = "<group>"; };
+		3C6D3F7223BDC36300B9FBCC /* UIImage+DKSampleBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DKSampleBuffer.m"; sourceTree = "<group>"; };
+		3C6D3F7323BDC36300B9FBCC /* DKCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCameraView.m; sourceTree = "<group>"; };
+		3C6D3F7423BDC36300B9FBCC /* DKCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCamera.h; sourceTree = "<group>"; };
+		3C6D3F7523BDC36300B9FBCC /* UIImage+DKSampleBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DKSampleBuffer.h"; sourceTree = "<group>"; };
+		3C6D3F7723BDC36300B9FBCC /* DKImageConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DKImageConverter.mm; sourceTree = "<group>"; };
+		3C6D3F7823BDC36300B9FBCC /* DKImageConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageConverter.h; sourceTree = "<group>"; };
+		3C6D3F7E23BDC3DA00B9FBCC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C6D3F5023BDC31F00B9FBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6D3F7F23BDC3DA00B9FBCC /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6D3F4A23BDC31F00B9FBCC = {
+			isa = PBXGroup;
+			children = (
+				3C6D3F6F23BDC36300B9FBCC /* Camera */,
+				3C6D3F7623BDC36300B9FBCC /* DKImageConverter */,
+				3C6D3F5523BDC31F00B9FBCC /* DKCamera */,
+				3C6D3F5423BDC31F00B9FBCC /* Products */,
+				3C6D3F7D23BDC3DA00B9FBCC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C6D3F5423BDC31F00B9FBCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D3F5323BDC31F00B9FBCC /* DKCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C6D3F5523BDC31F00B9FBCC /* DKCamera */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D3F5623BDC31F00B9FBCC /* AppDelegate.h */,
+				3C6D3F5723BDC31F00B9FBCC /* AppDelegate.m */,
+				3C6D3F5923BDC31F00B9FBCC /* SceneDelegate.h */,
+				3C6D3F5A23BDC31F00B9FBCC /* SceneDelegate.m */,
+				3C6D3F5C23BDC31F00B9FBCC /* ViewController.h */,
+				3C6D3F5D23BDC31F00B9FBCC /* ViewController.mm */,
+				3C6D3F5F23BDC31F00B9FBCC /* Main.storyboard */,
+				3C6D3F6223BDC32200B9FBCC /* Assets.xcassets */,
+				3C6D3F6423BDC32200B9FBCC /* LaunchScreen.storyboard */,
+				3C6D3F6723BDC32200B9FBCC /* Info.plist */,
+				3C6D3F6823BDC32200B9FBCC /* main.m */,
+			);
+			path = DKCamera;
+			sourceTree = "<group>";
+		};
+		3C6D3F6F23BDC36300B9FBCC /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D3F7023BDC36300B9FBCC /* DKCameraView.h */,
+				3C6D3F7323BDC36300B9FBCC /* DKCameraView.m */,
+				3C6D3F7423BDC36300B9FBCC /* DKCamera.h */,
+				3C6D3F7123BDC36300B9FBCC /* DKCamera.m */,
+				3C6D3F7523BDC36300B9FBCC /* UIImage+DKSampleBuffer.h */,
+				3C6D3F7223BDC36300B9FBCC /* UIImage+DKSampleBuffer.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		3C6D3F7623BDC36300B9FBCC /* DKImageConverter */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D3F7823BDC36300B9FBCC /* DKImageConverter.h */,
+				3C6D3F7723BDC36300B9FBCC /* DKImageConverter.mm */,
+			);
+			path = DKImageConverter;
+			sourceTree = "<group>";
+		};
+		3C6D3F7D23BDC3DA00B9FBCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C6D3F7E23BDC3DA00B9FBCC /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C6D3F5223BDC31F00B9FBCC /* DKCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6D3F6C23BDC32200B9FBCC /* Build configuration list for PBXNativeTarget "DKCamera" */;
+			buildPhases = (
+				3C6D3F4F23BDC31F00B9FBCC /* Sources */,
+				3C6D3F5023BDC31F00B9FBCC /* Frameworks */,
+				3C6D3F5123BDC31F00B9FBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKCamera;
+			productName = DKCamera;
+			productReference = 3C6D3F5323BDC31F00B9FBCC /* DKCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C6D3F4B23BDC31F00B9FBCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Dikey;
+				TargetAttributes = {
+					3C6D3F5223BDC31F00B9FBCC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 3C6D3F4E23BDC31F00B9FBCC /* Build configuration list for PBXProject "DKCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C6D3F4A23BDC31F00B9FBCC;
+			productRefGroup = 3C6D3F5423BDC31F00B9FBCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C6D3F5223BDC31F00B9FBCC /* DKCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C6D3F5123BDC31F00B9FBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6D3F6623BDC32200B9FBCC /* LaunchScreen.storyboard in Resources */,
+				3C6D3F6323BDC32200B9FBCC /* Assets.xcassets in Resources */,
+				3C6D3F6123BDC31F00B9FBCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C6D3F4F23BDC31F00B9FBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6D3F5E23BDC31F00B9FBCC /* ViewController.mm in Sources */,
+				3C6D3F7B23BDC36300B9FBCC /* DKCameraView.m in Sources */,
+				3C6D3F5823BDC31F00B9FBCC /* AppDelegate.m in Sources */,
+				3C6D3F6923BDC32200B9FBCC /* main.m in Sources */,
+				3C6D3F7A23BDC36300B9FBCC /* UIImage+DKSampleBuffer.m in Sources */,
+				3C6D3F7C23BDC36300B9FBCC /* DKImageConverter.mm in Sources */,
+				3C6D3F5B23BDC31F00B9FBCC /* SceneDelegate.m in Sources */,
+				3C6D3F7923BDC36300B9FBCC /* DKCamera.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C6D3F5F23BDC31F00B9FBCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6D3F6023BDC31F00B9FBCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C6D3F6423BDC32200B9FBCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6D3F6523BDC32200B9FBCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C6D3F6A23BDC32200B9FBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C6D3F6B23BDC32200B9FBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C6D3F6D23BDC32200B9FBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WMSS77X69Q;
+				INFOPLIST_FILE = DKCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = King.DKCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C6D3F6E23BDC32200B9FBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WMSS77X69Q;
+				INFOPLIST_FILE = DKCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = King.DKCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C6D3F4E23BDC31F00B9FBCC /* Build configuration list for PBXProject "DKCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6D3F6A23BDC32200B9FBCC /* Debug */,
+				3C6D3F6B23BDC32200B9FBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6D3F6C23BDC32200B9FBCC /* Build configuration list for PBXNativeTarget "DKCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6D3F6D23BDC32200B9FBCC /* Debug */,
+				3C6D3F6E23BDC32200B9FBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C6D3F4B23BDC31F00B9FBCC /* Project object */;
+}
