@@ -1,1 +1,1 @@
-Crop、resize & rotate CVPixelBuffer with vImage or Core Image.
+Demo：Crop、resize & rotate CVPixelBuffer with vImage or Core Image 
